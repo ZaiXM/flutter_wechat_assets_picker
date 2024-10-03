@@ -248,7 +248,7 @@ class _VideoPageBuilderState extends State<VideoPageBuilder> {
               Singleton.textDelegate.semanticsTextDelegate.sActionPlayHint,
           child: _contentBuilder(context),
         );
-      },
+      }, isOriginal: true,
     );
   }
 }
